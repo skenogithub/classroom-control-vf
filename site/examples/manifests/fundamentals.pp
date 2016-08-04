@@ -10,4 +10,8 @@ class examples::fundamentals {
     source => 'puppet:///modules/examples/fundamentals/example.pp',
   }
 
+  file { '/root/example2.pp':
+    ensure => file,
+    source => 'puppet:///modules/examples/fundamentals/example.pp',
+  }
 }
